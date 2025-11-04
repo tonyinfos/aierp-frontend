@@ -1,0 +1,10 @@
+/* 讓我們的 App 100% 填滿整個螢幕 */
+#root {
+  width: 100vw; /* 100% 視窗寬度 */
+  height: 100vh; /* 100% 視窗高度 */
+}
+
+/* (這是一個小修正，移除 Antd 側邊欄在 Mac 上多出來的滾動條) */
+.ant-layout-sider-children {
+  overflow-y: hidden;
+}

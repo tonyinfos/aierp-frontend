@@ -1,0 +1,22 @@
+/* ...existing code... */
+
+.social-login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* 如果您想加入 hover 動畫 */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 4px 12px rgba(24, 119, 242, 0.3);
+  }
+  100% {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
